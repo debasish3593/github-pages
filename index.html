@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Debasish Dutta | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="profile-header">
+        <div class="profile-container">
+          <img src="images/profile.jpg" alt="Debasish Dutta" class="profile-img" />
+          <div class="profile-text">
+            <h1>Debasish Dutta</h1>
+            <h2>B.Tech in Computer Science & Engineering</h2>
+            <h3>> Ex-Intern Amtron &nbsp;&nbsp;||&nbsp;&nbsp; Ex-Intern IIIT GHY &nbsp;&nbsp;||&nbsp;&nbsp; Web Development, Front-end Developer &nbsp;&nbsp;||&nbsp;&nbsp;</h3>
+            <h4>Training and Placement Cell Coordinator</h4>
+          </div>
+          <img src="images/logo.png" alt="DD Logo" class="logo-img" />
+        </div>
+    </header>
+      
+      
+    <nav class="navbar">
+      <button onclick="scrollToSection('about')">About Me</button>
+      <button onclick="scrollToSection('skills')">Skills</button>
+      <button onclick="scrollToSection('internships')">Internships</button>
+      <button onclick="scrollToSection('projects')">Projects</button>
+      <button onclick="scrollToSection('contact')">Contact</button>
+    </nav>
+  
+    <section id="about">
+    <h2>About Me</h2>
+    <p>I am a final-year Computer Science and Engineering student at Dibrugarh University Institute of Engineering and Technology, driven by a passion for technology and its transformative impact.I thrive on exploring diverse domains in technology, with expertise in Data Structures and Algorithms (Java), Web Development (Node.js, MySQL), Linux OS (with Go), and Machine Learning (Python). Eager to learn and grow, I continuously push myself to embrace new challenges and expand my skill set.
+        Outside the tech space, I’m a tea enthusiast and enjoy delving into creative outlets, drawing inspiration from my college days exploring theatre.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, Java, JavaScript</li>
+      <li><strong>Frameworks:</strong> YOLOv5/v8, TensorFlow, PyTorch</li>
+      <li><strong>Tools:</strong> OpenCV, Roboflow, Colab, Git</li>
+      <li><strong>Web:</strong> ReactJS, HTML, CSS, Laravel</li>
+    </ul>
+    <section id="internships">
+        <h2>Internships</h2>
+      
+        <p>
+          &bull; <strong>Web Development and Designing</strong><br>
+          <em>Oct 2023 – Nov 2023 | Remote</em><br>
+          <ul>
+            <li>To-Do WebApp – A powerful task management web application.</li>
+            <li>Tribute Page – A modern web UI design tribute page.</li>
+            <li>Basic Calculator – Built using JavaScript with standard arithmetic functions and an interactive interface.</li>
+          </ul>
+        </p>
+      
+        <p>
+          &bull; <strong>IPv6 Kernel-Level Networking Internship</strong><br>
+          <em>Jun 2023 – Jul 2023 | Indian Institute of Technology, Guwahati</em><br>
+          <ul>
+            <li>Implemented Neighbor Discovery Protocol (NDP) for IPv6 inside the FreeRTR kernel.</li>
+            <li>Enabled seamless routing and efficient neighbor detection using IPv6 stack integration.</li>
+          </ul>
+        </p>
+      
+        <p>
+          &bull; <strong>Social Internship</strong><br>
+          <em>Jun 2022 – Jul 2022 | Jagriti Jana Kalyan Unnayan Kendra, North Lakhimpur, Assam</em><br>
+          <ul>
+            <li>Worked at a rehabilitation center and old age home.</li>
+            <li>Participated in mobile ambulance services and child adoption center initiatives.</li>
+          </ul>
+        </p>
+      
+        <p>
+          &bull; <strong>Web Application Development</strong><br>
+          <em>Jul 2024 – Aug 2024 | Amtron, Guwahati</em><br>
+          <ul>
+            <li>Built a backend framework using Laravel.</li>
+            <li>Designed frontend using HTML and CSS.</li>
+          </ul>
+        </p>
+      
+      </section>
+      
+      
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="images/pothole.jpg" alt="Pothole Detection"/>
+      <div>
+        <h3>Pothole Detection</h3>
+        <p>YOLOv5 + OpenCV used to detect potholes in real-time video feeds. Dataset annotated using Roboflow.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/face_attendance.jpg" alt="Face Recognition Attendance"/>
+      <div>
+        <h3>Face Recognition Attendance System</h3>
+        <p>Built a facial recognition-based student attendance system using OpenCV and deep learning.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/weed.jpg" alt="Weed Detection"/>
+      <div>
+        <h3>Weed Detection in Paddy Fields</h3>
+        <p>YOLOv5-powered weed detection system designed for smart agriculture applications.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/tea_leaf.jpg" alt="Tea Leaf Health Detection"/>
+      <div>
+        <h3>Tea Leaf Health Detection</h3>
+        <p>Final year project using CNNs to detect unhealthy tea leaves and assist plantation management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="#">debasishdutta2003@gmail.com</a></p>
+    <p>GitHub: <a href="#">github.com/debasish3593</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/debasishdutta</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Debasish Dutta. All rights reserved.</p>
+  </footer>
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+</html>
